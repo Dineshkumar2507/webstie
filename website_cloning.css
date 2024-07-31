@@ -1,0 +1,230 @@
+
+body{
+    background-color: rgb(74, 72, 72);
+    padding: 0;
+    margin: 0;
+}
+#search{
+    color: white;
+    background-color: rgb(74, 72, 72);
+    border: outset 2.5px rgb(74, 72, 72);
+    margin-top: 10px;
+    height: 40px;
+    float: inline-end;
+    margin-right: 30px;
+    cursor: auto;
+    border-radius: 15px;
+}
+
+.heading{
+    text-transform: capitalize;
+    color: rgb(112, 98, 98);
+    text-align: center;
+    width: fit-content;
+    margin-left: 43%;
+    cursor: pointer;
+    float: center;
+    display:flex;
+}
+.heading:hover{
+    color: rgb(220, 97, 97);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.first{
+    background-color: rgb(116, 107, 107);
+    width: 290px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.second{
+    background-color: rgb(116, 107, 107);
+    width: 290px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.third{
+    background-color: rgb(116, 107, 107);
+    width: 290px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.fourth{
+    background-color: rgb(116, 107, 107);
+    width: 290px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.image{
+    height: 150px;
+    margin-bottom: 15px;   
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    transition: all 1s ease-out ;
+}
+.car1{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.CRyBQ5nPvrugmsJIsFNAbwHaD1&pid=Api&P=0&h=180);
+}
+.car2{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP._gPWltB6wwknn6_syte4eQHaEo&pid=Api&P=0&h=180);
+}
+.car3{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.AEM1upLSoqL7zHfCedgKzQHaEK&pid=Api&P=0&h=180);
+}
+.car4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPTXYOJCG-NmDxyu_Rzo6oO5OMgCdRWgTkkA&s);
+}
+.car5{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/ma905921-1620914291.jpg?crop=0.731xw:0.731xh;0.109xw,0.212xh&resize=980:*);
+}
+.car6{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/p90500600-6439b0699624e.jpeg?crop=0.589xw:0.587xh;0.237xw,0.333xh&resize=980:*);
+}
+.car7{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/medium-9564-4e9a7621-669fed1868f08.jpg?crop=0.751xw:0.751xh;0.124xw,0.168xh&resize=980:*);
+}
+.car8{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/rm025-033fnn8q977disk4dilg71ds28e56qj-659490f8b5bd9.jpg?crop=0.696xw:0.697xh;0.187xw,0.236xh&resize=980:*);
+}
+.first h2 , .second h2 , .third h2 , .fourth h2{
+    padding: 10px;
+}
+.first p , .second p , .third p , .fourth p{
+    padding: 10px;
+}
+
+.first a{
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.second a{
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.third a{
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.fourth a{
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.first:hover{
+    color: white; 
+    background-color: rgb(145, 140, 140);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.second:hover{
+    color: white; 
+    background-color: rgb(145, 140, 140);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.third:hover{
+    color: white; 
+    background-color: rgb(145, 140, 140);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.fourth:hover{
+    color: white; 
+    background-color: rgb(145, 140, 140);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.first a:hover{
+    transition: all 1s ease;
+    background-color: rgb(151, 142, 142);
+    color: black;
+}
+.second a:hover{
+    transition: all 1s ease;
+    background-color: rgb(151, 142, 142);
+    color: black;
+}
+.third a:hover{
+    transition: all 1s ease;
+    background-color: rgb(151, 142, 142);
+    color: black;
+}
+.fourth a:hover{
+    transition: all 1s ease;
+    background-color: rgb(151, 142, 142);
+    color: black;
+}
+#date{
+    color: white;
+    background-color: rgb(74, 72, 72);
+    border: none 2.5px rgb(74, 72, 72);
+    margin-top: 10px;
+    height: 40px;
+    float: inline-start;
+    margin-left: 30px;
+    cursor: auto;
+    border-radius: 15px;
+}
+.end{
+    display: block;
+    text-transform: lowercase;
+    text-align: center;
+    text-decoration: dashed;
+    padding: 10px;
+   
+}
+.sp:hover{
+    color: white;
+    cursor: cell;
+}
+.sp , .link{
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.link:hover{
+    color: white;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+    
+
+    
+
+
+
+
+
+
+
+
